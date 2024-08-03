@@ -9,13 +9,13 @@
     <div class="row">
         <div class="col">
             <div class="mb-3">
-                <label for="youtube-link" class="form-label"><strong>YouTube Link</strong></label>
+                <label for="youtube-link" class="form-label"><strong>유튜브 링크</strong></label>
                 <input class="form-control" id="youtube-link" placeholder="Add YouTube link here" @bind="youTubeLinkUrl" />
             </div>
         </div>
         <div class="col">
             <div class="mb-3">
-                <label for="video-language-code" class="form-label"><strong>Video Language</strong></label>
+                <label for="video-language-code" class="form-label"><strong>영상 언어</strong></label>
                 <select class="form-select" id="video-language-code" aria-label="Video language code" @bind="videoLanguageCode">
                     <option value="en" selected>English</option>
                     <option value="ko">Korean</option>
@@ -24,7 +24,7 @@
         </div>
         <div class="col">
             <div class="mb-3">
-                <label for="summary-language-code" class="form-label"><strong>Summary Language</strong></label>
+                <label for="summary-language-code" class="form-label"><strong>요약 언어</strong></label>
                 <select class="form-select" id="summary-language-code" aria-label="Summary language code" @bind="summaryLanguageCode">
                     <option value="en" selected>English</option>
                     <option value="ko">Korean</option>
@@ -42,7 +42,7 @@
 
     <div class="row">
         <div class="mb-3">
-            <label for="result" class="form-label"><strong>Summary</strong></label>
+            <label for="result" class="form-label"><strong>요약본</strong></label>
             <textarea class="form-control" id="result" rows="10" placeholder="Result will show here" readonly>@summaryResult</textarea>
         </div>
     </div>
