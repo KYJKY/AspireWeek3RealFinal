@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/AspireYouTubeSummariser.AppHost/appsettings.Development.json
+/backend/appsettings.Development.json
+/frontend/appsettings.Development.json
