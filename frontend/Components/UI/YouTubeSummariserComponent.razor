@@ -3,19 +3,19 @@
 
 <div class="container">
     <div class="row">
-        <h2>YouTube Summariser</h2>
+        <h2>ìœ íŠœë¸Œ ìš”ì•½</h2>
     </div>
 
     <div class="row">
         <div class="col">
             <div class="mb-3">
-                <label for="youtube-link" class="form-label"><strong>À¯Æ©ºê ¸µÅ©</strong></label>
+                <label for="youtube-link" class="form-label"><strong>ìœ íŠœë¸Œ ë§í¬</strong></label>
                 <input class="form-control" id="youtube-link" placeholder="Add YouTube link here" @bind="youTubeLinkUrl" />
             </div>
         </div>
         <div class="col">
             <div class="mb-3">
-                <label for="video-language-code" class="form-label"><strong>¿µ»ó ¾ğ¾î</strong></label>
+                <label for="video-language-code" class="form-label"><strong>ì˜ìƒ ì–¸ì–´</strong></label>
                 <select class="form-select" id="video-language-code" aria-label="Video language code" @bind="videoLanguageCode">
                     <option value="en" selected>English</option>
                     <option value="ko">Korean</option>
@@ -24,7 +24,7 @@
         </div>
         <div class="col">
             <div class="mb-3">
-                <label for="summary-language-code" class="form-label"><strong>¿ä¾à ¾ğ¾î</strong></label>
+                <label for="summary-language-code" class="form-label"><strong>ìš”ì•½ ì–¸ì–´</strong></label>
                 <select class="form-select" id="summary-language-code" aria-label="Summary language code" @bind="summaryLanguageCode">
                     <option value="en" selected>English</option>
                     <option value="ko">Korean</option>
@@ -42,7 +42,7 @@
 
     <div class="row">
         <div class="mb-3">
-            <label for="result" class="form-label"><strong>¿ä¾àº»</strong></label>
+            <label for="result" class="form-label"><strong>ìš”ì•½ë³¸</strong></label>
             <textarea class="form-control" id="result" rows="10" placeholder="Result will show here" readonly>@summaryResult</textarea>
         </div>
     </div>

@@ -14,4 +14,12 @@
     <ProjectReference Include="..\AspireYouTubeSummariser.ServiceDefaults\AspireYouTubeSummariser.ServiceDefaults.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\illul\source\repos\AspireWeek3RealFinal\frontend\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\illul\source\repos\AspireWeek3RealFinal\frontend\.editorconfig" />
+  </ItemGroup>
+
 </Project>
