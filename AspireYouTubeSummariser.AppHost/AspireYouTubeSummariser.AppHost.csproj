@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>4c374cb4-a54c-494a-9656-f39d889cb267</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.1.0" />
+	<PackageReference Include="Aspire.Hosting.Redis" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\backend\AspireYouTubeSummariser.ApiApp.csproj" />
+    <ProjectReference Include="..\frontend\AspireYouTubeSummariser.WebApp.csproj" />
+  </ItemGroup>
+
+</Project>
