@@ -399,3 +399,4 @@ FodyWeavers.xsd
 /AspireYouTubeSummariser.AppHost/appsettings.Development.json
 /backend/appsettings.Development.json
 /frontend/appsettings.Development.json
+.azure
